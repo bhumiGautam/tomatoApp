@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
 
-    const url = "http://localhost:4000";
+    const url = "https://tomatoapp-eyat.onrender.com";
 
     const [cartItems, setCartItems] = useState({});
     const [foodList, setFoodList] = useState([]);
